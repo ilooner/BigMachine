@@ -4,23 +4,13 @@
     <groupId>com.topekalabs</groupId>
     <artifactId>BigMachine</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
+    <modules>
+        <module>BigMachineApp</module>
+        <module>BigMachineClient</module>
+        <module>BigMachineArchetype</module>
+    </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>1.7</maven.compiler.source>
-        <maven.compiler.target>1.7</maven.compiler.target>
     </properties>
-    
-    <dependencies>
-        <dependency>
-            <groupId>org.apache.commons</groupId>
-            <artifactId>topeka-javaflow</artifactId>
-            <version>2.0</version>
-        </dependency>
-        <dependency>
-            <groupId>com.topekalabs</groupId>
-            <artifactId>utils</artifactId>
-            <version>1.2-SNAPSHOT</version>
-        </dependency>
-    </dependencies>
 </project>
